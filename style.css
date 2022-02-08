@@ -1,0 +1,132 @@
+*{
+    font-family: serif;
+}
+.div{
+    width: 700px;
+    background-color: aliceblue;
+}
+.first ul{
+    display: inline-flex;
+    margin: 20px;
+
+    font-size: 13px;
+}
+.first ul li{
+    list-style: none;
+    margin: 0 20px;
+    cursor: pointer;
+    color: black;
+}
+.logo img{
+    height: 50px;
+    margin-top: -23px;
+    margin-left: -80px;
+   
+}
+.second{
+    height: 32px;
+    margin: 5px;
+}
+.third{
+    padding: 15px;
+    font-size: 13px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: white;
+}
+.forth{
+    padding: 15px;
+    font-size: 13px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: white;
+}
+.btn{
+    color: black;
+    font-size: 30px;
+    
+    
+
+}
+
+.icon{
+    position: absolute;
+    height: 2px;
+}
+.sellbtn{
+    top: 90px;
+    right: 40px;
+    width: 55px;
+    height: 10px;
+    padding: 10px;
+    text-decoration: none;
+    position: absolute;
+    color: black;
+    background-color: white;
+    border: 5px solid;
+    border-color: skyblue darkblue yellow;
+    border-radius: 20px;
+}
+ul li {display: inline-block;}
+ul li:hover {color: rgb(65, 170, 189);}
+ul li:hover ul {display: block;}
+ul li ul {
+    position: absolute;
+    display: none;
+}
+ul li ul li {
+    background-color: rgb(65, 170, 189);
+    display: block;
+
+}
+ul li ul li a {display: block !important;}
+ul li ul li:hover {color: rgb(65, 170, 189);}
+
+.loginbtn{
+    height: -100px;
+    margin-top: 120px;
+}
+
+li:hover{
+    color: yellow;
+}
+#sr{
+    background-color: rgb(141, 143, 218);
+    width: 0.3px ;
+    height: 1px;
+    margin-left: -50px;
+    margin-top: 0px;
+    position: absolute;
+    font-size: 100%;
+    padding: 2.6%;
+    color: white;
+    border-radius: 0% 12% 12% 0%;
+    justify-content: center;
+    align-items: center;
+
+
+    a:hover{
+        color: black
+
+    }
+
+    .main{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer{
+        height: 200px;
+        border: 1 solid transparent;
+        background-color: grey;
+        padding: 10px;
+        text-align: left;
+    }
+
+    .img{
+        height: 25px;
+    }
+    .footer td:hover{
+        color: white;
+    }
+}
